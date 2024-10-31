@@ -1,0 +1,77 @@
+.boxlist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Problems with boxes size here */
+.boxlist {
+    width: 80%; 
+    max-width: 900px; 
+    height: auto; 
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    border: 1px solid #ddd;
+    padding: 24px; 
+    
+}
+
+
+.rating .container h2,p{
+    text-align: center;
+}
+.rating .container h2{
+    padding-top: 4.5rem;
+    padding-bottom: 6px;
+}
+.rating .container > p{
+    padding-bottom: 20px;
+}
+.rating{
+    box-sizing: border-box;
+    width: 100vw; 
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.boxlist p{
+    font-size: 8px;
+}
+.boxlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw; 
+    max-width: 250px;
+    text-align: justify;
+    padding-right: 12px;
+
+
+}
+.boxlist i{
+    color: #0D6EFD;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    padding-right: 3px;
+
+}
+.combine{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: column;
+}
+.combine p {
+    text-align: justify;
+    margin: 0; 
+
+}
+
+.client-info {
+    text-align: center;
+    color: #BBC7CB;
+    padding-top: 2px;
+}

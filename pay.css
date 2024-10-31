@@ -1,0 +1,156 @@
+.payment{
+    background-color: #F8F9FA;
+    box-sizing: border-box;
+    width: 100%;
+}
+.payment .container div h2{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 4rem;
+    margin-bottom: 8px;
+}
+.payment .container div p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300 !important;
+}
+
+.box{
+    width: 300px; /* Fixed width */
+    height: 410px; /* Fixed height */
+    background-color: #ffffff;
+    padding: 48px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(82, 81, 81, 0.1);
+    flex-shrink: 0; /* Prevents boxes from shrinking */
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 2px solid #ddd;
+    text-align: center;
+    line-height: 1.4; 
+}
+.rows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+
+.price{
+    display: flex;
+}
+.payment .container div .rows .box .price .title{
+    font-size: 50px;
+}
+
+.payment .container div .rows .box .price .title2{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+.checklist{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.payment .container div .rows .box ul li{
+    list-style-type:none;
+}
+.checklist {
+    list-style-type: none; 
+}
+
+.checklist li {
+    padding-left: 24px; 
+    margin-bottom: 1px; 
+    position: relative; 
+}
+
+.checklist .correct::before {
+    content: '✓'; 
+    color: rgb(12, 177, 228);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.checklist .incorrect::before {
+    content: '✗'; 
+    color: rgb(129, 124, 124);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.box h4{
+    font-size: 11px;
+}
+
+.texticon{
+    display: flex;
+    gap: 3px;
+}
+
+.texticon i{
+    color: gold;
+    font-size: 10px;
+    padding-top: 1px;
+
+}
+
+.incorrect{
+    color: #6C757D;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.box button{
+    /* padding-left:180px;
+    padding-top: 24px; */
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    color: #0D6EFD;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 8px 60px;
+    border: 1px solid #0D6EFD;
+
+
+}
+.box .uniquebutton{
+    /* padding-left:180px;
+    padding-top: 24px; */
+    background-color: #0D6EFD;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 8px 60px;
+    color: white;
+
+
+}
+
+.box button:hover{
+    background-color: #0D6EFD;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.box .uniquebutton:hover{
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    transition: ease-in-out 0.3s;
+}

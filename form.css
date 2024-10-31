@@ -1,0 +1,114 @@
+.forms {
+    box-sizing: border-box;
+    width: 100vw; 
+    background-color: #F8F9FA;
+    padding: 20px 0; 
+}
+
+.form-box {
+    text-align: center;
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 18px; 
+}
+.form-table{
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 125px;
+}
+
+/* Box shadows needs to be adjusted */
+.form-box i{
+    color: #F8F9FA;
+    background-color: #1673FD;
+    border: 1px solid #F8F9FA; 
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 24px; 
+}
+
+.form-box h2{
+    margin-top: 20px;
+}
+.form-box p{
+    margin-bottom: 20px;
+}
+table{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 600px; 
+    height: 60px; 
+    font-size: 1rem; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+}
+input[type="email"] {
+    width: 600px; 
+    height: 60px; 
+    font-size: 1rem; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    margin-top: 20px;
+}
+input[type="tel"] {
+    width: 600px; 
+    height: 60px; 
+    font-size: 1rem; 
+    padding: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type="comment"] {
+    width: 600px; 
+    height: 200px; 
+    font-size: 1rem; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding-bottom: 150px;
+}
+
+input {
+    border: 1px solid #ddd; 
+    outline: none; 
+}
+
+input:focus {
+    outline: 1px solid #1673FD; 
+}
+
+/* input:invalid { */
+    /* border-color: rgb(255, 0, 0);
+/* } */
+input:valid {
+    border-color: rgb(13, 27, 223); 
+}
+input:focus:valid {
+    outline-color: #1673FD;
+}
+
+input:focus:invalid {
+    outline-color: rgb(255, 0, 0); 
+}
+
+.Submit{
+    background-color: #5F9FFC;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 14px 275px;
+    color: white;
+    font-size: 1rem;
+}
